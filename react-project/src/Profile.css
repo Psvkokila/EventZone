@@ -1,0 +1,55 @@
+.profile-page{
+height:100vh;
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+background-image:url("https://img.freepik.com/premium-photo/lavender-color-purple-background_87720-42193.jpg");
+background-size:cover;
+background-position:center;
+}
+
+.profile-card{
+padding:150px;
+align-self: start;
+width:350px;
+border-radius:12px;
+text-align:center;
+}
+
+.profile-card h1{
+margin-bottom:20px;
+color:#333;
+gap:10;
+}
+
+.profile-card p{
+font-size:18px;
+margin:10px 0;
+gap:10;
+color:#555;
+}
+
+.profile-avatar{
+width:90px;
+height:90px;
+border-radius:50%;
+margin-bottom:15px;
+}
+
+.logout-btn{
+margin-top:15px;
+padding:8px 15px;
+width:120px;   /* controls button width */
+border:none;
+background:#ff4d4d;
+color:white;
+font-size:14px;
+border-radius:5px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.logout-btn:hover{
+background:#e60000;
+}

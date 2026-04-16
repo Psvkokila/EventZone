@@ -1,0 +1,156 @@
+.home-background{
+height:100vh;
+width:100%;
+background-image: url("https://static.vecteezy.com/system/resources/thumbnails/042/596/048/small/ai-generated-background-for-banner-with-balloons-and-podium-space-for-text-purple-hues-premium-luxury-mimimal-contemporary-podium-stage-for-e-comerse-generated-by-artificial-intelligence-photo.jpeg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+text-align: center;
+}
+
+
+.event-container{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+}
+
+.event-card{
+width:220px;
+background:white;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+padding:15px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.event-card:hover{
+transform:scale(1.05);
+}
+
+.event-card img{
+width:100%;
+height:150px;
+border-radius:8px;
+object-fit:cover;
+}
+
+.event-card h3{
+margin-top:10px;
+}
+
+h3 {
+    color:black;
+}
+
+h2 {
+    color:black;
+}
+
+p {
+    color:black;
+}
+
+.search-box{
+margin-top:20px;
+}
+
+.search-box input{
+padding:10px;
+width:220px;
+border-radius:5px;
+border:none;
+margin-right:10px;
+}
+
+.search-box button{
+padding:10px 20px;
+background:#e6beda;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.search-box button:hover{
+background:#c77ab0;
+transform:scale(1.05);
+}
+
+.decor-container{
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.decor-card{
+width:220px;
+background:white;
+color:black;
+padding:10px;
+border-radius:10px;
+}
+
+.decor-card img{
+width:100%;
+height:150px;
+object-fit:cover;
+border-radius:8px;
+}
+
+/* Navbar */
+
+.navbar{
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:12px 30px;
+background:#ad2484;
+color:white;
+position:fixed;
+top:0;
+left:0;
+z-index:1000;
+box-sizing:border-box;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+}
+
+.nav-links{
+display:flex;
+align-items:center;
+list-style:none;
+gap:25px;
+margin:0;
+padding:0;
+}
+
+.nav-links li{
+display:flex;
+align-items:center;
+gap:6px;
+cursor:pointer;
+font-size:17px;
+white-space:nowrap;
+}
+
+.nav-links li:hover{
+opacity:0.8;
+}
+
+.home-background{
+padding-top:80px;
+}
